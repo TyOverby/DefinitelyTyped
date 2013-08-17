@@ -9,7 +9,7 @@
 *                   GLOBAL                      *
 *                                               *
 ************************************************/
-declare var process: NodeProcess;
+declare var process: NodeProcess;h
 declare var global: any;
 
 declare var __filename: string;
@@ -148,7 +148,7 @@ interface NodeProcess extends EventEmitter {
     title: string;
     arch: string;
     platform: string;
-    memoryUsage(): { rss: number; heapTotal; number; heapUsed: number; };
+    memoryUsage(): { rss: number; heapTotal: number; heapUsed: number; };
     nextTick(callback: Function): void;
     umask(mask?: number): number;
     uptime(): number;
